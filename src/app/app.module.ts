@@ -8,11 +8,13 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { FIREBASE } from './firebase';
 import { ShoppingListPage } from '../pages/shopping-list/shopping-list';
+import { AddShoppingPage } from '../pages/add-shopping/add-shopping';
 
 @NgModule({
   declarations: [
     MyApp,
-    ShoppingListPage
+    ShoppingListPage,
+    AddShoppingPage
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { ShoppingListPage } from '../pages/shopping-list/shopping-list';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    ShoppingListPage
+    ShoppingListPage,
+    AddShoppingPage
   ],
   providers: [
     StatusBar,
