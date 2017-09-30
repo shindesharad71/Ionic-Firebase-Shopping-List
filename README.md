@@ -1,26 +1,28 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Ionic Firebase Shopping List - Hybrid Mobile App
 
-## How to use this template
+A Shopping List Hybrid Mobile Application For Understanding Concepts of Ionic 3 and Firebase.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+### Demo
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+![Demo](# "Demo")
 
-### With the Ionic CLI:
+### Get APK
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+[Get APK From Here](#)
+
+### Installation Instructions - With the Ionic CLI:
+
+Clone or Download This Repository. Then Run Following Commands Inside The Project Folder:
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
+$ npm install
+$ ionic lab
 ```
 
-Then, to run it, cd into `myBlank` and run:
+In Case For Running On Device:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ ionic cordova platform add android
+$ ionic cordova run android
 ```
-
-Substitute ios for android if not on a Mac.
-
