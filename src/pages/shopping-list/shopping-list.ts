@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams, ActionSheetController } from 'ioni
 import { FirebaseListObservable, AngularFireDatabase } from 'angularfire2/database';
 import { AddShoppingPage } from '../add-shopping/add-shopping';
 import { ShoppingItem } from '../../models/shopping-item/shopping-item.interface';
+import { EditShoppingItemPage } from '../edit-shopping-item/edit-shopping-item';
 
 @Component({
   selector: 'page-shopping-list',
@@ -25,6 +26,7 @@ export class ShoppingListPage {
           text: 'Edit',
           handler: () => {
             // Send User To EditShoppingItem Page
+            this.navCtrl.push(EditShoppingItemPage, { shoppingItemId: shoppingItem.$key });
           }
         },
         {
