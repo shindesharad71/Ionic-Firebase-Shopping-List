@@ -4,7 +4,7 @@ A Shopping List Hybrid Mobile Application For Understanding Concepts of Ionic 3 
 
 ### Demo
 
-![Demo](# "Demo")
+![Demo](https://github.com/shindesharad71/Ionic-Firebase-Shopping-List/blob/master/demo.gif?raw=true "Demo")
 
 ### Get APK
 
