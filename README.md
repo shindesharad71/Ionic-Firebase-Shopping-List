@@ -8,7 +8,7 @@ A Shopping List Hybrid Mobile Application For Understanding Concepts of Ionic 3 
 
 ### Get APK
 
-[Get APK From Here](#)
+[Get APK From Here](https://github.com/shindesharad71/Ionic-Firebase-Shopping-List/releases)
 
 ### Installation Instructions - With the Ionic CLI:
 
